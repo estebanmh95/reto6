@@ -1,0 +1,7 @@
+<h1>Mi cuenta es : <%=@contador%></h1>
+<br>
+<form action ="/count" method = "post">
+
+  <button type="submit" name="boton">Suma!!</button>
+  <input type="hidden" name="count" value=<%="#{@contador}"%> />
+</form>
